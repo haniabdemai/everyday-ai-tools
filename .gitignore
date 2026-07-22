@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Python artefacts
+__pycache__/
+*.pyc
+
+# Credentials (never commit)
+.gmail_token.json
+client_secret*.json
+
+# macOS
+.DS_Store
+
+# Pipeline output artefacts
+output/
+*.segments.json
